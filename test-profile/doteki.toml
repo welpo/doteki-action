@@ -1,0 +1,26 @@
+[sections.last_updated]
+plugin = "current_date"
+prepend_text = 'Last updated on <a href="https://github.com/welpo/doteki-action/actions/workflows/ci.yml">'
+format = "%A, %d %B %Y at %H:%M"
+inline = true
+
+[sections.garden]
+plugin = "random_choice"
+options = ["🐝", "🍄", "🐸", "🐇", "🌻", "🐛", "🌿", "🌱", "🌷", "🌲", "🌳", "🍀", "🌸", "🌼", "🌹", "🥀", "🌻", "🌺", "🌸", "🌸", "🌳", "🌿", "🦋", "🌿", "☘️", "☘️", "☘️", "🌱", '<sub><img src="https://raw.githubusercontent.com/welpo/doteki-action/main/test-profile/gnomed.png" width="21" alt="Consider yourself gnomed"></sub>']
+n = 15
+with_replacement = true
+preset = "glue"
+
+[sections.did_you_know]
+plugin = "random_choice"
+options = [
+    "The historical Buddha is not known to have been fat. The chubby monk known as the 'fat Buddha' or 'laughing Buddha' in the West is a 10th-century Chinese Buddhist folk hero by the name of Budai.",
+    "Bats are not blind. While about 70% of bat species, mainly in the microbat family, use echolocation to navigate, all bat species have eyes and are capable of sight.",
+    "Goldfish have a longer memory than three seconds. They can remember things for months and even up to a year.",
+    "Contrary to the apologue about the boiling frog, frogs die immediately when cast into boiling water, rather than leaping out; furthermore, frogs will attempt to escape cold water that is slowly heated past their critical thermal maximum.",
+    "Bananas are berries, but strawberries are not.",
+    "The word 'sushi' refers to the rice, not the fish.",
+    "People do not use only 10% of their brains. While it is true that a small minority of neurons in the brain are actively firing at any one time, a healthy human will normally use most of their brain over the course of a day, and the inactive neurons are important as well.",
+    "The Bermuda Triangle does not have any more shipwrecks or mysterious disappearances than most other waterways.",
+    "Humans did not evolve from chimpanzees or any other modern apes; rather, humans and modern apes share a [common ancestor](https://en.wikipedia.org/wiki/Chimpanzee%E2%80%93human_last_common_ancestor) that lived roughly 10 million years ago.",
+]

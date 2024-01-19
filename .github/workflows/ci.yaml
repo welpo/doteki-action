@@ -1,0 +1,27 @@
+# Test the action by running it on the test-profile directory.
+# dōteki makes it easy to add dynamic content to your GitHub profile through plugins.
+# For more information and documentation, visit https://doteki.org/
+
+name: Continuous Integration
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '21 2 * * 3'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./test-profile/
+    permissions:
+      contents: write  # Necessary to push changes.
+    steps:
+      - name: Run dōteki action
+        uses: welpo/doteki-action@main  # Use latest version of doteki-action (and dōteki).
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

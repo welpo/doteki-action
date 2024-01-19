@@ -6,6 +6,8 @@
     <a href="https://github.com/welpo/doteki-action/releases"><img src="https://img.shields.io/github/v/release/welpo/doteki-action?style=flat-square&labelColor=202b2d&color=5E936C" alt="GitHub version"></a>
     <a href="https://doteki.org/docs">
         <img src="https://img.shields.io/website?url=https%3A%2F%2Fdoteki.org&style=flat-square&label=docs&labelColor=202b2d&color=5E936C" alt="Documentation"></a>
+    <a href="https://github.com/welpo/doteki-action/actions/workflows/ci.yaml">
+      <img src="https://img.shields.io/github/actions/workflow/status/welpo/doteki/ci.yaml?style=flat-square&labelColor=202b2d&color=5E936C" alt="Build status"></a>
     <a href="https://github.com/welpo/doteki/blob/main/COPYING">
         <img src="https://img.shields.io/github/license/welpo/doteki?style=flat-square&labelColor=202b2d&color=5E936C" alt="License"></a>
     <a href="https://doteki.org">
