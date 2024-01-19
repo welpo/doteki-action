@@ -2,6 +2,12 @@ name: "run-doteki"
 description: "Update README with dynamic content using dōteki"
 author: "Óscar <osc@osc.garden>"
 
+inputs:
+  working-directory:
+    description: "Working directory"
+    required: false
+    default: '.'  # Default to the repository root directory.
+
 branding:
   icon: 'file-text'
   color: 'green'
@@ -26,11 +32,13 @@ runs:
     - name: Run dōteki
       shell: bash
       run: |
+        cd ${{ inputs.working-directory }}
         doteki
 
     - name: Commit and push changes
       shell: bash
       run: |
+        cd ${{ inputs.working-directory }}
         git add README.md
         if git diff --staged --quiet; then
           echo "No changes to commit"

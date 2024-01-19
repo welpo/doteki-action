@@ -6,6 +6,7 @@ name: Continuous Integration
 
 on:
   pull_request:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -15,13 +16,12 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./test-profile/
     permissions:
       contents: write  # Necessary to push changes.
     steps:
       - name: Run dōteki action
         uses: welpo/doteki-action@main  # Use latest version of doteki-action (and dōteki).
+        with:
+          working-directory: "./test-profile/"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
