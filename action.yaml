@@ -1,0 +1,42 @@
+name: "run-doteki"
+description: "Update README with dynamic content using dōteki"
+author: "Óscar <osc@osc.garden>"
+
+branding:
+  icon: 'file-text'
+  color: 'green'
+
+runs:
+  using: "composite"
+  steps:
+    - name: Check out repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+
+    - name: Install dependencies
+      shell: bash
+      run: |
+        python -m pip install --upgrade pip
+        pip install --quiet doteki[all]==0.0.1  # Install all plugin dependencies.
+
+    - name: Run dōteki
+      shell: bash
+      run: |
+        doteki
+
+    - name: Commit and push changes
+      shell: bash
+      run: |
+        git add README.md
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+          exit 0
+        fi
+        git config user.name "doteki-action"
+        git config user.email "actions@users.noreply.github.com"
+        git commit -m "Update README"
+        git push
