@@ -4,6 +4,16 @@ Welcome to the changelog for dōteki-action. This document aims to provide a com
 
 We use Semantic Versioning (SemVer) for our version numbers, formatted as MAJOR.MINOR.PATCH. Major version changes involve significant (breaking) changes, minor versions introduce features and improvements in a backward compatible manner, and patch versions are for bug fixes and minor tweaks.
 
+## [0.0.2](https://github.com/welpo/doteki-action/compare/v0.0.1..v0.0.2) - 2024-01-26
+
+### ✨ Features
+
+- Allow custom working directory - ([bd3ec1b](https://github.com/welpo/doteki-action/commit/bd3ec1b2181a021988811ffc06378af5f8d28a71))
+
+### 🐛 Bug Fixes
+
+- Upgrade from doteki 0.0.1 to 0.0.2 - ([406f92e](https://github.com/welpo/doteki-action/commit/406f92e15b6213e0341269112add52fffc532d57))
+
 ## 0.0.1 - 2024-01-19
 
 ### ✨ Features
