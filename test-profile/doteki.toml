@@ -6,7 +6,7 @@ inline = true
 
 [sections.garden]
 plugin = "random_choice"
-options = ["🐝", "🍄", "🐸", "🐇", "🌻", "🐛", "🌿", "🌱", "🌷", "🌲", "🌳", "🍀", "🌸", "🌼", "🌹", "🥀", "🌻", "🌺", "🌸", "🌸", "🌳", "🌿", "🦋", "🌿", "☘️", "☘️", "☘️", "🌱", '<sub><img src="https://raw.githubusercontent.com/welpo/doteki-action/main/test-profile/gnomed.png" width="21" alt="Consider yourself gnomed"></sub>']
+options = ["🐝", "🍄", "🐸", "🐇", "🌻", "🐛", "🌿", "🌱", "🌷", "🌲", "🌳", "🍀", "🌸", "🌼", "🌹", "🥀", "🌻", "🌺", "🌸", "🌸", "🌳", "🌿", "🦋", "🌿", "☘️", "☘️", "☘️", "🌱", '<sub><img src="https://raw.githubusercontent.com/welpo/doteki-action/main/assets/gnomed.png" width="21" alt="Consider yourself gnomed"></sub>']
 n = 15
 with_replacement = true
 preset = "glue"
