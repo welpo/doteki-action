@@ -1,6 +1,6 @@
 [sections.last_updated]
 plugin = "current_date"
-prepend_text = 'Last updated on <a href="https://github.com/welpo/doteki-action/actions/workflows/ci.yml">'
+prepend_text = 'Last updated on <a href="https://github.com/welpo/doteki-action/actions/workflows/ci.yaml">'
 format = "%A, %d %B %Y at %H:%M"
 inline = true
 
