@@ -4,50 +4,62 @@ Welcome to the changelog for dōteki-action. This document aims to provide a com
 
 We use Semantic Versioning (SemVer) for our version numbers, formatted as MAJOR.MINOR.PATCH. Major version changes involve significant (breaking) changes, minor versions introduce features and improvements in a backward compatible manner, and patch versions are for bug fixes and minor tweaks.
 
+## [0.0.8](https://github.com/welpo/doteki-action/compare/v0.0.7..v0.0.8) - 2024-02-21
+
+### ✨ Features
+
+- Update dōteki to v0.0.8 ([14afe26](https://github.com/welpo/doteki-action/commit/14afe2658dbc8e07b447f91f41bb938db2195bc3)) by @welpo
+
+### 🔧 Miscellaneous tasks
+
+- *(git-sumi)* Improve emoji matching ([691dea7](https://github.com/welpo/doteki-action/commit/691dea7e6226df90467c01dba54778130450b3d4)) by @welpo
+- *(release)* Update CHANGELOG format ([ca3598e](https://github.com/welpo/doteki-action/commit/ca3598eb7165f834cd6cbe8812d972fb2abe5771)) by @welpo
+- *(renovate)* Move config file ([5000d89](https://github.com/welpo/doteki-action/commit/5000d89b3ea6cb6a071a9509be9f6774889cdc74)) by @welpo
+
 ## [0.0.7](https://github.com/welpo/doteki-action/compare/v0.0.3..v0.0.7) - 2024-02-10
 
 ### ✨ Features
 
-- Update dōteki to v0.0.7 ([9690782](https://github.com/welpo/doteki-action/commit/96907820cb3637ef9cf92e509b21d258b8fd638d)) by [@welpo](https://github.com/welpo)
+- Update dōteki to v0.0.7 ([9690782](https://github.com/welpo/doteki-action/commit/96907820cb3637ef9cf92e509b21d258b8fd638d)) by @welpo
 
 ### 📝 Documentation
 
-- *(README)* Add git-sumi badge ([ee6e541](https://github.com/welpo/doteki-action/commit/ee6e54162e3838c35fda925cfcaeaa679b424fba)) by [@welpo](https://github.com/welpo)
+- *(README)* Add git-sumi badge ([ee6e541](https://github.com/welpo/doteki-action/commit/ee6e54162e3838c35fda925cfcaeaa679b424fba)) by @welpo
 
 ### 🔧 Miscellaneous tasks
 
-- *(CHANGELOG)* Improve emoji pattern ([6b6eacf](https://github.com/welpo/doteki-action/commit/6b6eacfa64e27c844329ac314612a3e7a8b58468)) by [@welpo](https://github.com/welpo)
-- *(CI)* Update git-sumi config ([c564ef9](https://github.com/welpo/doteki-action/commit/c564ef93514f130dd481ce28903e0395da17d0bd)) by [@welpo](https://github.com/welpo)
-- *(git-sumi)* Require a space after the gitmoji ([6956244](https://github.com/welpo/doteki-action/commit/6956244a9ae0308b8b49ca7ff8cc29bb6ebdc858)) by [@welpo](https://github.com/welpo)
-- *(release)* Verify version tag format on release ([486d0d1](https://github.com/welpo/doteki-action/commit/486d0d17318658c06361c867cdb37b89122d8919)) by [@welpo](https://github.com/welpo)
+- *(CHANGELOG)* Improve emoji pattern ([6b6eacf](https://github.com/welpo/doteki-action/commit/6b6eacfa64e27c844329ac314612a3e7a8b58468)) by @welpo
+- *(CI)* Update git-sumi config ([c564ef9](https://github.com/welpo/doteki-action/commit/c564ef93514f130dd481ce28903e0395da17d0bd)) by @welpo
+- *(git-sumi)* Require a space after the gitmoji ([6956244](https://github.com/welpo/doteki-action/commit/6956244a9ae0308b8b49ca7ff8cc29bb6ebdc858)) by @welpo
+- *(release)* Verify version tag format on release ([486d0d1](https://github.com/welpo/doteki-action/commit/486d0d17318658c06361c867cdb37b89122d8919)) by @welpo
 
 ## [0.0.3](https://github.com/welpo/doteki-action/compare/v0.0.2..v0.0.3) - 2024-02-07
 
 ### ✨ Features
 
-- Update doteki version to 0.0.3 ([7ef0dea](https://github.com/welpo/doteki-action/commit/7ef0dea975052b28876e41583f1835f8dcfd9384)) by [@welpo](https://github.com/welpo)
+- Update doteki version to 0.0.3 ([7ef0dea](https://github.com/welpo/doteki-action/commit/7ef0dea975052b28876e41583f1835f8dcfd9384)) by @welpo
 
 ### 🔧 Miscellaneous tasks
 
-- *(CI)* Fix links in tag description ([9ad1fba](https://github.com/welpo/doteki-action/commit/9ad1fbadedd430f79d7a15efd8dbd4f61ce3aafd)) by [@welpo](https://github.com/welpo)
-- Update changelog sections ([9ace49f](https://github.com/welpo/doteki-action/commit/9ace49f2ae3fb57bc7903ca5e600ae3810a35a9b)) by [@welpo](https://github.com/welpo)
-- Use git-sumi to lint commit messages ([86c6261](https://github.com/welpo/doteki-action/commit/86c6261fde4576f4d88245d8093ed87528ebb5e5)) by [@welpo](https://github.com/welpo)
-- Add continuous deployment workflow ([c9cf2f6](https://github.com/welpo/doteki-action/commit/c9cf2f659b5f0ec93b1133d461aa0390afee37b1)) by [@welpo](https://github.com/welpo)
+- *(CI)* Fix links in tag description ([9ad1fba](https://github.com/welpo/doteki-action/commit/9ad1fbadedd430f79d7a15efd8dbd4f61ce3aafd)) by @welpo
+- Update changelog sections ([9ace49f](https://github.com/welpo/doteki-action/commit/9ace49f2ae3fb57bc7903ca5e600ae3810a35a9b)) by @welpo
+- Use git-sumi to lint commit messages ([86c6261](https://github.com/welpo/doteki-action/commit/86c6261fde4576f4d88245d8093ed87528ebb5e5)) by @welpo
+- Add continuous deployment workflow ([c9cf2f6](https://github.com/welpo/doteki-action/commit/c9cf2f659b5f0ec93b1133d461aa0390afee37b1)) by @welpo
 
 ## [0.0.2](https://github.com/welpo/doteki-action/compare/v0.0.1..v0.0.2) - 2024-01-26
 
 ### ✨ Features
 
-- Allow custom working directory ([bd3ec1b](https://github.com/welpo/doteki-action/commit/bd3ec1b2181a021988811ffc06378af5f8d28a71)) by [@welpo](https://github.com/welpo)
+- Allow custom working directory ([bd3ec1b](https://github.com/welpo/doteki-action/commit/bd3ec1b2181a021988811ffc06378af5f8d28a71)) by @welpo
 
 ### 🐛 Bug fixes
 
-- Upgrade from doteki 0.0.1 to 0.0.2 ([406f92e](https://github.com/welpo/doteki-action/commit/406f92e15b6213e0341269112add52fffc532d57)) by [@welpo](https://github.com/welpo)
+- Upgrade from doteki 0.0.1 to 0.0.2 ([406f92e](https://github.com/welpo/doteki-action/commit/406f92e15b6213e0341269112add52fffc532d57)) by @welpo
 
 ## 0.0.1 - 2024-01-19
 
 ### ✨ Features
 
-- Initial commit ([b44d617](https://github.com/welpo/doteki-action/commit/b44d617a2c06940615a838b2a62df7b2186ab53c)) by [@welpo](https://github.com/welpo)
+- Initial commit ([b44d617](https://github.com/welpo/doteki-action/commit/b44d617a2c06940615a838b2a62df7b2186ab53c)) by @welpo
 
 <!-- generated by git-cliff -->
