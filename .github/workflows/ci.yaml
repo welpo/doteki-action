@@ -14,7 +14,7 @@ on:
     - cron: '21 2 * * 3'
 
 jobs:
-  update-readme:
+  test-doteki:
     runs-on: ubuntu-latest
     permissions:
       contents: write  # Necessary to push changes.
@@ -24,4 +24,6 @@ jobs:
         with:
           working-directory: "./test-profile/"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Pull Requests don't push changes.
+          GITHUB_TOKEN: ${{ github.event_name != 'pull_request' && secrets.GITHUB_TOKEN || '' }}
+          DRY_RUN: ${{ github.event_name == 'pull_request' }}
