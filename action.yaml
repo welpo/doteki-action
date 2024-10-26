@@ -44,6 +44,15 @@ runs:
           echo "No changes to commit"
           exit 0
         fi
+
+        # If we're in dry-run mode, just show the diff and exit.
+        if [[ "$DRY_RUN" == "true" ]]; then
+          echo "DRY RUN: Would make the following changes:"
+          git diff --staged
+          exit
+        fi
+
+        # Otherwise proceed with commit and push.
         git config user.name "doteki-action"
         git config user.email "actions@users.noreply.github.com"
         git commit -m "Update README"
