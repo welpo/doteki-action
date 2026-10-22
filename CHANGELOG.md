@@ -4,11 +4,17 @@ Welcome to the changelog for dōteki-action. This document aims to provide a com
 
 We use Semantic Versioning (SemVer) for our version numbers, formatted as MAJOR.MINOR.PATCH. Major version changes involve significant (breaking) changes, minor versions introduce features and improvements in a backward compatible manner, and patch versions are for bug fixes and minor tweaks.
 
+## [0.0.10](https://github.com/welpo/doteki-action/compare/v0.0.9..v0.0.10) - 2026-10-22
+
+### ✨ Features
+
+- Update dōteki to v0.0.10 ([59abffd](https://github.com/welpo/doteki-action/commit/59abffd433aef6d4a1949f0f40746a92ed3c40c2))
+
 ## [0.0.9](https://github.com/welpo/doteki-action/compare/v0.0.8..v0.0.9) - 2025-02-19
 
 ### ✨ Features
 
-- Update dōteki to 0.0.9 ([fc8350e](https://github.com/welpo/doteki-action/commit/fc8350ea0429c607cedc00bb648c1994ee0abc52))
+- Update dōteki to 0.0.9 ([fc8350e](https://github.com/welpo/doteki-action/commit/fc8350ea0429c607cedc00bb648c1994ee0abc52)) by [@welpo](https://github.com/welpo)
 - Support `DRY_RUN` mode through env var ([45c53ec](https://github.com/welpo/doteki-action/commit/45c53ecb51a15ddb0d53ad28bf5e24c18537d2a0)) by [@welpo](https://github.com/welpo)
 
 ### 🔧 Miscellaneous tasks
@@ -27,11 +33,7 @@ We use Semantic Versioning (SemVer) for our version numbers, formatted as MAJOR.
 
 ### 👥 New contributors
 
-🫶 [@actions](https://github.com/actions) made their first contribution
-
-🫶 [@welpo](https://github.com/welpo) made their first contribution
-
-🫶 [@renovate](https://github.com/renovate)[bot] made their first contribution in [#1](https://github.com/welpo/doteki-action/pull/1)
+🫶 @renovate[bot] made their first contribution in [#1](https://github.com/welpo/doteki-action/pull/1)
 
 ## [0.0.8](https://github.com/welpo/doteki-action/compare/v0.0.7..v0.0.8) - 2024-02-21
 
